@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 const jwt = require('jsonwebtoken')
-const key = require('./jwtn')
+const key = require('./jwt')
 
 app.use(express.json())
 
